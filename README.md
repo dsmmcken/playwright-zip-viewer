@@ -15,7 +15,6 @@ This viewer makes it easy to view any Playwright report without setting up a loc
 - **Drag & Drop** - Drop a Playwright report ZIP directly onto the page
 - **URL Loading** - Enter a URL to fetch a remote ZIP file
 - **URL Parameter** - Use `?url=` parameter for direct linking
-- **GitHub Artifact Support** - Automatically transforms GitHub artifact URLs to use nightly.link for CORS bypass
 - **Privacy Focused** - All processing happens locally in your browser. No data is uploaded.
 
 ## Usage
@@ -29,9 +28,6 @@ This viewer makes it easy to view any Playwright report without setting up a loc
 1. Host your ZIP file somewhere accessible (with CORS headers if cross-origin)
 2. Enter the URL in the input field, or
 3. Use the URL parameter: `https://dsmmcken.github.io/playwright-zip-viewer/?url=YOUR_ZIP_URL`
-
-### Option 3: GitHub Actions Artifacts
-For GitHub Actions artifacts, the viewer automatically converts URLs to use nightly.link for CORS bypass.
 
 ## Self-Hosting
 
